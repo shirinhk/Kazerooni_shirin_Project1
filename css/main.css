@@ -1,0 +1,23 @@
+body {
+  font-family: 'arial', 'helvatica', sans-serif;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+main > h2 {
+  margin: 10px 0 10px 10px;
+  font-size: 1.5em;
+}
+
+p {
+  margin-bottom: 2em;
+}
+
+p::first-line {
+  font-style: italic;
+  font-size: 1.5em;
+}
